@@ -403,7 +403,6 @@ body._block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid red;
 }
 @media (max-width: 1024px) {
   .top-main__container {

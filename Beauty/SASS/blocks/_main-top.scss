@@ -8,10 +8,6 @@
 	&__container {
 		padding-top:192px;
 		display: flex;
-		// justify-content: space-between;
-		border: 1px solid red;
-		// max-height: 604px;
-
 		@media(max-width: 1024px){
 			padding-top: 120px;
 		}
