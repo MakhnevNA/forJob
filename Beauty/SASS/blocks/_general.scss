@@ -1,0 +1,64 @@
+body{
+	font-family: 'Roboto';
+	font-weight: 400;
+	color: #333333;
+
+	&._block{
+		overflow: hidden;
+	}
+
+}
+
+
+
+
+
+.wrapper{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	
+}
+
+.main{
+	flex: 1 1 auto;
+}
+
+
+.container {
+	padding: 0 15px;
+	max-width: 1130px;
+	margin: 0 auto;
+	// border: 1px solid red;
+
+}
+
+
+.phone-callback {
+
+	// .phone-callback__number
+
+	&__number {
+		font-size: 16px;
+		line-height: 118%;
+		color: #000000;
+
+
+		
+	}
+
+	// .phone-callback__button
+
+	&__button {
+		font-size: 14px;
+		line-height: 114%;
+		color: #000000;
+		background-color: #FFFFFF;
+		padding: 12px 26px;
+		border: 2px solid #66C05D;
+		border-radius: 40px;
+	}
+}
+
+

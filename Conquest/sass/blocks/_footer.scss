@@ -1,0 +1,151 @@
+
+.footer {
+	background-color: #444240;
+	color:#FFFFFF;
+	// .footer__container
+
+	&__container {
+		max-width: 1166px;
+		margin: 0 auto;
+		display: flex;
+		// justify-content: space-between;
+		// align-items: center;
+		min-height: 275px;
+		padding: 67px 0 0 0;
+	}
+
+	// .footer__main
+
+	&__main {
+		margin: 0 151px 0 0;
+		padding: 0 0 0 80px;
+		align-self: flex-start;
+	}
+
+	// .footer__title
+
+	&__title {
+		margin: 0 0 23px 0;
+		display: flex;
+
+		align-items: flex-start;
+	}
+
+	// .footer__logo
+
+	&__logo {
+		margin: -9px 2px 0 0;
+		// align-self: flex-start;
+	}
+
+	// .footer__title-name
+
+	&__title-name {
+		font-family: 'Playfair Display';
+
+		font-weight: 700;
+		line-height: 19px;
+		letter-spacing: 0.14em;
+	
+		color: #FFFFFF;
+		// align-self: flex-end;
+	}
+
+	// .footer__contacts
+
+	&__contacts {}
+
+	// .footer__number
+
+	&__number {
+		margin: 0 0 15px 0;
+
+		font-family: 'Roboto';
+			font-size: 12px;
+			line-height: 14px;
+		
+			color: rgba(255, 255, 255, 0.75);
+	}
+
+	// .footer__mail
+
+	&__mail {
+		font-family: 'Roboto';
+			font-size: 12px;
+			line-height: 14px;
+		
+			color: rgba(255, 255, 255, 0.75);
+	}
+
+	
+
+	&__content{
+		display: flex;
+		// justify-content: space-between;
+		// align-items: center;
+		width: 100%;
+
+			>div{
+				margin: 0 120px 0 0;
+			}
+			>div:last-child{
+				margin: 0 85px 0 0;
+			}
+	}
+
+
+	// .footer__about
+	&__about {
+	}
+
+	// .footer__name
+
+	&__name {
+		font-family: 'Roboto';
+		font-weight: 700;
+		line-height: 16px;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		margin: 0 0 33px 0;
+	}
+
+	// .footer__menu
+
+	&__menu {}
+
+	// .footer__menu-list
+
+	&__menu-list {
+		li{
+			font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 12px;
+				line-height: 14px;
+			
+				color: rgba(255, 255, 255, 0.75);
+		}
+		li:not(:last-child){
+			margin: 0 0 15px 0 ;
+		}
+	}
+
+	// .footer__menu-item
+
+	&__menu-item {}
+
+	// .footer__menu-link
+
+	&__menu-link {}
+
+	// .footer__client
+
+	&__client {
+	}
+
+	// .footer__but-delivery
+
+	&__but-delivery {
+	}
+}

@@ -1,0 +1,181 @@
+.main {
+	background-color: #EFEFEF;
+	// .main__bottom
+
+	&__bottom {}
+}
+
+.bottom-main {
+	margin-bottom: 132px;
+	@media (max-width: 586px) {
+		margin-bottom: 50px;
+	}
+	
+	// .bottom-main__container
+
+	&__container {
+		display: flex;
+		flex: 1 1 50%;
+
+		@media (max-width:1024px){
+			flex-wrap: wrap;
+		
+		}
+		
+	}
+
+	// .bottom-main__gift
+
+	&__gift {
+		background-color: #66C05D;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		margin-right: 30px;
+
+		@media (max-width:1024px) {
+			width: 100%;
+			margin: 0 0 30px 0;
+		}
+	}
+
+	// .bottom-main__welcome
+
+	&__welcome {
+		background-color: #66C05D;
+		width: 100%;
+	}
+}
+
+
+
+
+.title-bottom {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 116%;
+	color: #FFFFFF;
+}
+
+.info-bottom {
+	line-height: 142%;
+	color: #FFFFFF;
+	
+}
+
+
+
+.gift-bottom {
+
+	// .gift-bottom__text
+
+	&__text {
+		margin: 35px 0 35px 40px;
+
+		@media(max-width: 586px) {
+			width: 100%;
+			margin: 35px 0 35px 10px;
+			text-align: center;
+		}
+	}
+
+	// .gift-bottom__title
+
+	&__title {
+		margin-bottom: 25px;
+		
+	}
+
+	// .gift-bottom__info
+
+	&__info {
+		
+		max-width: 231px;
+		margin-bottom: 25px;
+		@media(max-width: 586px) {
+			max-width: none;
+			// margin: 35px 0 35px 40px;
+			text-align: center;
+		}
+	}
+
+	// .gift-bottom__input
+
+	&__input {
+		padding-left:25px;
+		background-color: #FFFFFF;
+		border-radius: 30px;
+		width: 225px;
+		height: 35px;
+	}
+
+	// .gift-bottom__img
+
+	&__img {
+		// margin: 52px 45px 52px 0;
+		width: 140px;
+		height: 106px;
+		margin-right: 45px;
+
+		@media(max-width: 586px){
+			display: none;
+		}
+
+	}
+}
+
+.welcome-bottom {
+
+
+	&__text{
+		margin: 35px 0 35px 40px;
+
+		@media(max-width: 586px){
+			margin: 35px 0 35px 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+	// .welcome-bottom__title
+
+	&__title {
+		margin-bottom: 25px;
+	}
+
+	// .welcome-bottom__info
+
+	&__info {
+		margin-bottom: 25px;
+		max-width: 141px;
+		@media(max-width: 586px) {
+			// max-width: none;
+		}
+		
+	}
+
+	// .welcome-bottom__button
+
+	&__button {
+		background: #66C05D;
+		border: 2px solid #FFFFFF;
+		border-radius: 30px;
+		max-width: 172px;
+		@media(max-width: 586px) {
+			// width: 300px;
+			// text-align: center;
+		}
+	}
+
+	// .welcome-bottom__button-map
+
+	&__button-map {
+		display: inline-block;
+		line-height: 114%;
+		color: #FFFFFF;
+		padding: 9px 28px;
+		
+	}
+}

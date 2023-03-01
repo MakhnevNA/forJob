@@ -1,0 +1,171 @@
+
+.top-footer {
+
+	// .top-footer__container
+
+	&__container {
+		min-height: 120px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@media(max-width:768px){
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+
+
+	// .top-footer__social
+
+	&__social {
+		margin-right: 10px;
+
+		@media(max-width:768px) {
+			margin: 20px 0 40px 0;
+		}
+		
+	}
+
+	// .top-footer__social-list
+
+	&__social-list {
+		color: #66C05D;
+		display: flex;
+		
+	}
+
+	// .top-footer__social-item
+
+	&__social-item:not(:last-child) {
+		margin-right: 20px;
+		@media(max-width: 1024px) {
+			margin-right: 10px;
+		}
+		@media(max-width: 768px) {
+			margin-right: 30px;
+		}
+		
+	}
+
+	// .top-footer__social-link
+
+	&__social-link {
+		border: 2px solid #66C05D;
+		border-radius: 50%;
+		width: 45px;
+		height: 45px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		span{
+			font-size: 20px;
+		}
+	}
+
+	// .top-footer__location
+
+	&__location {
+		line-height: 114%;
+		color: #000000;
+		margin-right: 10px;
+
+		@media(max-width:768px) {
+			margin: 0 0 50px 0;
+			font-size: 16px;
+		}
+	}
+
+}
+
+
+
+.phone-footer {
+	font-size: 16px;
+	line-height: 118%;
+	color: #000000;
+	@media(max-width: 1024px){
+		text-align: center;
+	}
+		
+	// .phone-footer__number
+
+	&__number {
+		margin-right: 40px;
+		
+		@media(max-width: 1024px){
+			display: block;
+			margin: 0 0 20px 0;
+			text-align: center;
+		}
+
+		@media(max-width:768px) {
+			margin: 0 0 10px 0;
+			font-size: 20px;
+		}
+		
+	}
+
+	// .phone-footer__button
+
+	&__button {
+		@media(max-width: 1024px) {
+			display: block;
+			text-align: center;
+		}
+		@media(max-width:768px) {
+			margin: 0 0 20px 0;
+			font-size: 20px;
+		}
+	}
+}
+
+
+
+
+
+
+.bottom-footer {
+
+	background-color: #EFEFEF;
+
+	// .bottom-footer__container
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 64px;
+		color: #828282;
+		font-size: 12px;
+
+		@media (max-width: 1024px) {
+			// flex-wrap: wrap;
+			display: block;
+			text-align: center;
+			// vertical-align: middle;
+		}
+	}
+
+	// .bottom-footer__allrights
+
+	&__allrights {
+		line-height: 116%;
+		margin-right: 10px;
+
+		@media (max-width: 1024px) {
+			padding-top: 15px;
+			margin: 0px 0 15px 0;
+			
+		}
+	}
+
+	// .bottom-footer__politics
+
+	&__politics {
+		line-height: 116%;
+		@media (max-width: 1024px) {
+			vertical-align: middle;
+		}
+	}
+}

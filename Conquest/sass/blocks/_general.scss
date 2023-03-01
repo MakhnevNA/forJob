@@ -1,0 +1,15 @@
+body{
+	background-color:#FDFDFB;
+}
+
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.main{
+	flex: 1 1 auto;
+}

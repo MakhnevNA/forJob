@@ -1,0 +1,104 @@
+.main {
+
+	// .main__news
+
+	&__news {
+		margin: 0 0 90px 0;
+	}
+}
+
+.news-main {
+
+	// .news-main__container
+
+	&__container {
+		max-width: 1166px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		// align-items: center;
+	}
+
+	// .news-main__body
+
+	&__body {
+		margin: 0 10px 0 0;
+	}
+
+	// .news-main__text
+
+	&__text {}
+
+	// .news-main__title
+
+	&__title {
+		padding: 140px 0 0 0;
+		font-family: 'Playfair Display';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 32px;
+			line-height: 43px;
+		
+			color: #1B1A17;
+			margin: 0 0 40px 0;
+	}
+
+	// .news-main__subtitle
+
+	&__subtitle {
+		font-family: 'Roboto';
+			font-size: 16px;
+			line-height: 27px;
+		
+			color: #444240;
+		margin: 0 0 120px 0;
+			span{
+				font-family: 'Roboto';
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 27px;
+			}
+	}
+
+	// .news-main__social
+
+	&__social {
+		span:not(:last-child){
+			margin: 0 20px 0 0;
+		}
+		
+	}
+
+	// .news-main__images
+
+	&__images {
+		display: flex;
+		// justify-content: center;
+	}
+
+	// .news-main__column
+
+	&__column {
+		margin: 0 10px 0 0;
+		max-width: 242px;
+		img:not(:last-child){
+			margin: 0 0 10px 0;
+		}
+	}
+
+	// .news-main__row
+
+	&__row {}
+}
+
+.icon-instagram {
+	font-size: 18px;
+}
+
+.icon-facebook {
+	font-size: 20px;
+}
+
+.icon-twitter {
+	font-size: 20px;	
+}

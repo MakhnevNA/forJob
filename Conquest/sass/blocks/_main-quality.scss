@@ -1,0 +1,183 @@
+.main {
+
+	// .main__quality
+
+	&__quality {
+		margin: 0 0 134px 0;
+	}
+}
+
+.quality-main {
+
+	// .quality-main__container
+
+	&__container {
+		max-width: 1166px;
+		margin: 0 auto;
+		display: flex;
+		
+	}
+
+	// .quality-main__left
+
+	&__left {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 0 70px 0 0;
+	}
+
+	// .quality-main__background
+
+	&__background {
+		position: absolute;
+		top: 0;
+		left: -180px;
+	}
+
+	// .quality-main__slider
+
+	&__slider {
+		position: relative;
+		top: 52px;
+		z-index: 100;
+
+		
+	}
+
+	&__slide{
+		margin-bottom: 20px;
+	}
+
+	
+		// .quality-main__slider-button
+
+		&__slider-button {
+			margin: 0 50px 0 0;
+			display: flex;
+			justify-content: flex-end;
+
+			>span{
+				margin: 0 20px;
+			}
+		}
+	
+
+
+	// .quality-main__slider-arrow-rig-right
+
+	&__slider-arrow-right {
+		cursor: pointer;
+	}
+
+	// .quality-main__slider-arrow-left
+
+	&__slider-arrow-left {
+		cursor: pointer;
+		
+		
+	}
+
+	// .quality-main__right
+
+	&__right {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	// .quality-main__text
+
+	&__text {
+		margin: 140px 0 0 0;
+	}
+
+	// .quality-main__title
+
+	&__title {
+		font-family: 'Playfair Display';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 32px;
+			line-height: 43px;
+		
+			color: #1B1A17;
+			margin: 0 0 38px 0;
+	}
+
+	// .quality-main__subtitle
+
+	&__subtitle {
+		font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 150%;
+			/* or 24px */
+		
+		
+			color: #444240;
+			margin: 0 0 45px 0;
+			max-width: 376px;
+	}
+
+	// .quality-main__button
+
+	&__button {
+		background-color: #D4B098;
+		max-width: 205px;
+		
+
+		a{
+			display: inline-block;
+			font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 14px;
+				letter-spacing: 0.05em;
+			
+				color: #FFFFFF;
+				padding: 27px 38px;
+		}
+	}
+
+
+
+
+	// .quality-main__background-right
+
+	&__background-right {
+		// position: absolute;
+		// top: 0;
+		// left: 0;
+	}
+
+
+
+
+	// .quality-main__small-circle
+
+	&__small-circle {
+		position: absolute;
+		top: 5px;
+		right: -300px;
+	}
+
+	// .quality-main__big-circle
+
+	&__big-circle {
+		position: absolute;
+			top: 5px;
+			right: -300px;
+	}
+}
+
+.icon-keyboard {
+
+	// .icon-keyboard_arrow
+
+	&_arrow {
+		
+	}
+}

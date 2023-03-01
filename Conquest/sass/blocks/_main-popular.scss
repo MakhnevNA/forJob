@@ -1,0 +1,187 @@
+.main {
+
+	// .main__popular
+
+	&__popular {
+		margin: 0 0 86px 0;
+	}
+}
+
+.popular-main {
+
+	// .popular-main__container
+
+	&__container {
+		max-width: 1166px;
+		margin: 0 auto;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	// .popular-main__title
+
+	&__title {
+		font-family: 'Playfair Display';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 32px;
+			line-height: 43px;
+		
+			color: #1B1A17;
+			padding: 75px 0 0 0;
+			text-align: center;
+			margin: 0 0 93px 0;
+	}
+
+	// .popular-main__all
+
+	&__all {
+		font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 19px;
+		
+			color: #444240;
+			// text-align: right;
+			position: absolute;
+			top: 130px;
+			right: 0;
+
+			span{
+				padding-bottom: 11px;
+				border-bottom: 1px solid #C4C0B6;
+			}
+	}
+
+	// .popular-main__body
+
+	&__body {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+}
+
+.body-popular {
+
+	// .body-popular__item
+
+	&__item {
+		max-width: 370px;
+		position: relative;
+		// margin: 0 auto;
+		// text-align: center;
+		margin: 0 27px 0 0;
+		// border: 1px solid red;
+	}
+
+		&__item:last-child{
+			margin: 0;
+		}
+
+}
+
+.item-popular {
+
+	// .item-popular__text
+
+	&__text {
+		padding: 0 0 0 40px;
+		// margin: 40px 0 0 0;
+	}
+
+	// .item-popular__title
+
+	&__title {
+		font-family: 'Playfair Display';
+		font-weight: 700;
+		line-height: 24px;
+		letter-spacing: 0.03em;
+		color: rgba(27, 26, 23, 0.82);
+		margin: 0 0 10px 0;
+	}
+
+	// .item-popular__price
+
+	&__price {
+		font-family: 'Prata';
+		font-size: 12px;
+		line-height: 16px;
+		color: rgba(27, 26, 23, 0.82);
+		display: flex;
+		align-items: center;
+		span{
+			padding: 0 0 0 4px;
+		}
+	}
+
+	// .item-popular__image
+
+	&__image {
+		// padding: 0 0 0 40px;
+		
+	}
+
+
+
+	
+	// .item-popular__image-watch
+	&__image-watch {
+		text-align: center;
+		padding: 0 0 0 61px;
+		margin: 0 100px 26px 0;
+	}
+	
+
+
+
+
+
+
+	// .item-popular__imagae-background
+
+	&__imagae-background {
+		img{
+			position: absolute;
+			top: 55px;
+			left: 30px;
+		}
+	}
+
+	// .item-popular__about
+
+	&__about {
+		font-family: 'Playfair Display';
+		font-size: 16px;
+		line-height: 21px;
+		color: #1B1A17;
+		position: relative;
+		// padding: 0 0 0 40px;
+		margin: 0 0 40px 40px;
+
+
+		span{
+			&:before {
+				content: "";
+				display: inline-block;
+				width: 30px;
+				height: 1px;
+				background-color: #8B8371;
+				margin: 0px 18px 0 0;
+				position: relative;
+				top: -4px;
+				// position: absolute;
+				// top: 12px;
+				// left: 30px;
+	}
+		}
+		
+	}
+
+	
+}
+
+.icon-rouble {}

@@ -1,0 +1,131 @@
+.header {
+
+	// .header__container
+
+	&__container {
+		max-width: 1166px;
+		min-height: 83px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	// .header__main
+
+	&__main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 10px 0 0;
+	}
+
+	// .header__logo
+
+	&__logo {
+		margin: 0 2px 0 0;
+	}
+
+	// .header__name
+
+	&__name {
+		font-family: 'Playfair Display';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 16px;
+		letter-spacing: 0.14em;
+	
+		color: #555248;
+	}
+
+	// .header__menu
+
+	&__menu {
+		margin: 0 10px 0 0;
+	}
+
+	// .header__icons
+
+	&__icons {
+		display: flex;
+		align-items: center;
+		a:not(:last-child){
+			margin: 0 23px 0 0;
+		}
+	}
+
+	// .header__icon-search
+
+	&__icon-search {}
+
+	// .header__icon-heart-o
+
+	&__icon-heart-o {
+		position: relative;
+		top: 0;
+		left: 0;
+			
+	}
+
+	// .header__icon-shopping-cart
+
+	&__icon-shopping-cart {}
+}
+
+.menu {
+
+	// .menu__list
+
+	&__list {
+		display: flex;
+		
+		a{
+			font-family: 'Roboto';
+			color: #555248;
+		}
+		
+			li:not(:last-child) {
+				margin: 0 65px 0 0;
+			}
+	}
+
+	// .menu__item
+
+	&__item {}
+
+	// .menu__link
+
+	&__link {}
+}
+
+.icon-search {
+	font-size: 16px;
+	color: #1B1A17;
+}
+
+.icon-heart-o {
+	font-size: 19px;
+	color: #1B1A17;
+	span {
+			width: 13px;
+			height: 13px;
+			background-color: #E6C8B4;
+			border-radius: 50%;
+			position: absolute;
+			top: -5px;
+			right: -7px;
+			font-family: 'Roboto';
+			font-size: 8px;
+			line-height: 9px;
+			color: #1B1A17;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+}
+
+.icon-shopping-cart {
+	font-size: 18px;
+	color: #1B1A17;
+}
